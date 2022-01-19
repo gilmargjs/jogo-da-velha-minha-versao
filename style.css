@@ -1,6 +1,9 @@
 body {
     text-align: center;
+
 }
+
+
 
 .quadrado {
     text-align: center;
@@ -17,12 +20,13 @@ não vai oculpar espaço da direita */
     color: #eee;
 }
 
-.jogador, .vencedor{
+.jogador,
+.vencedor {
     font-size: 30px;
     margin-top: 10px;
 }
 
-button{
+button {
     margin-top: 10px;
     width: 100px;
     height: 30px;
