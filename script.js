@@ -122,9 +122,9 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3) {
     quadrado1.style.background = '#00BFFF';
     quadrado2.style.background = '#00BFFF';
     quadrado3.style.background = '#00BFFF';
-    quadrado1.style.border = '1px solid #000';
-    quadrado2.style.border = '1px solid #000';
-    quadrado3.style.border = '1px solid #000';
+    quadrado1.style.border = '2px solid #FFFF00';
+    quadrado2.style.border = '2px solid #FFFF00';
+    quadrado3.style.border = '2px solid #FFFF00';
     quadrado1.classList.add('pisca');
     quadrado2.classList.add('pisca');
     quadrado3.classList.add('pisca');
