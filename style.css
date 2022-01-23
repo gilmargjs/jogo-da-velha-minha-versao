@@ -1,8 +1,38 @@
-body {
-    text-align: center;
-
+/* efeito de pisca no cursor para digitar o numero */
+@keyframes pisca {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity:1;}
 }
 
+body {
+    text-align: center; 
+    background-color: rgb(197, 197, 241);
+}
+
+
+.container{
+    display: none;
+}
+
+
+.container-1{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.container-1 img{
+    width: 50px;
+    height: 50px;
+}
+
+
+h2{
+    margin-top: 20px;
+}
 
 
 .quadrado {
@@ -18,7 +48,11 @@ não vai oculpar espaço da direita */
     margin: 5px;
     cursor: pointer;
     color: #eee;
+   
+    border: 1px solid #000;
 }
+
+
 
 .jogador,
 .vencedor {
@@ -26,11 +60,27 @@ não vai oculpar espaço da direita */
     margin-top: 10px;
 }
 
+.jogador img{
+    width: 30px;
+    height: 30px;
+}
+
+.vencedor img{
+    width: 30px;
+    height: 30px;
+}
 button {
     margin-top: 10px;
     width: 100px;
     height: 30px;
     background: #eee;
     cursor: pointer;
+    border-radius: 7px;
+}
+
+.pisca{
+    /* nome da animação */
+    animation:pisca 0.5s steps(1,end)infinite;
+
 }
 

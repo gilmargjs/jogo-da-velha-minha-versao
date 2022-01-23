@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Jogo da Velha</title>
 </head>
-
+    
 <body>
     <h1>Jogo da Velha</h1>
 
@@ -31,17 +31,20 @@
     </div>
 
     <div class="jogador">
-        <label for="">Jogador:</label>
+        <label for="">Jogador da vez:</label>
         <label for="" id="jogador-selecionado"></label>
+        <label for="" id="jogador-nome"></label>
     </div>
 
     <div class="vencedor">
         <label for="">vencedor:</label>
         <label for="" id="vencedor-selecionado"></label>
+        <label for="" id="vencedor-nome"></label>
     </div>
     <div>
-        <button>Reiniciar</button>
+        <button onclick="reiniciar()">Reiniciar</button>
     </div>
+    <script src="jogador.js"></script>
     <script src="script.js"></script>
 </body>
 
